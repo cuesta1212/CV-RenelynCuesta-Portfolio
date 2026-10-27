@@ -24,8 +24,8 @@ export const profile = {
 
 export const social = {
   github: "https://github.com/cuesta1212",
-  // LinkedIn intentionally omitted.
-  facebook: "",
+  linkedin: "https://www.linkedin.com/in/renelyn-cuesta-852297447/",
+  facebook: "https://www.facebook.com/yandare.hikaru/",
   instagram: "",
 };
 

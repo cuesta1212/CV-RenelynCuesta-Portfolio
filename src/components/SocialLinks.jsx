@@ -1,7 +1,7 @@
-import { Facebook, Github, Instagram } from "lucide-react";
+import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 import { social } from "../data/portfolio";
 
-const ICONS = { github: Github, facebook: Facebook, instagram: Instagram };
+const ICONS = { github: Github, facebook: Facebook, instagram: Instagram, linkedin: Linkedin };
 
 // Only renders accounts that have a URL in portfolio.js.
 export default function SocialLinks() {

@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "request": "launch",
+      "url": "http://127.0.0.1:5173",
+      "preLaunchTask": "Start portfolio",
+      "type": "msedge",
+      "name": "Portfolio in Edge",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "request": "launch",
+      "url": "http://127.0.0.1:5173",
+      "preLaunchTask": "Start portfolio",
+      "type": "chrome",
+      "name": "Portfolio in Chrome",
+      "webRoot": "${workspaceFolder}"
+    }
+  ],
+  "version": "0.2.0"
+}

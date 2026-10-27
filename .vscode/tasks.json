@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/start-dev.ps1"
+      ],
+      "problemMatcher": [
+        {
+          "owner": "vite",
+          "pattern": {
+            "regexp": "^(?!)$"
+          },
+          "background": {
+            "endsPattern": ".*Local:.*5173.*",
+            "beginsPattern": ".*",
+            "activeOnStart": true
+          }
+        }
+      ],
+      "command": "powershell.exe",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "label": "Start portfolio",
+      "type": "shell",
+      "isBackground": true
+    }
+  ],
+  "version": "2.0.0"
+}

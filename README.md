@@ -2,7 +2,7 @@
 
 Personal CV and developer portfolio of **Renelyn Cuesta**, a fourth-year BSIT student at Davao Del Norte State College.
 
-- **GitHub repository:** _add link after creating the repo_
+- **GitHub repository:** https://github.com/cuesta1212/CV-RenelynCuesta-Portfolio
 - **Live site (Vercel):** _add link after deploying_
 
 ## Technologies
@@ -29,7 +29,7 @@ npm run preview    # preview the production build
 ```
 
 ## Update your content
-Edit `src/data/portfolio.js`. Add your photo at `public/images/profile/profile.jpg` and your CV at `public/resume.pdf`, then set `cvFile: "/resume.pdf"`.
+Edit `src/data/portfolio.js`. Profile photos, project screenshots, and certificates are stored in `public/images/`. Add your CV at `public/resume.pdf`, then set `cvFile: "/resume.pdf"`.
 
 ## Deploy to Vercel
 Push to GitHub, then import the repo at vercel.com. Vercel detects Vite automatically: Build Command `npm run build`, Output Directory `dist`, Install Command `npm install`.
